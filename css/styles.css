@@ -1,0 +1,203 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+
+}
+a {
+  text-decoration: none;
+  color: #8f8f8f;
+}
+
+/* a:hover{
+  color: #553259;
+} */
+/* Container */
+
+.container-fluid {
+  padding: 7% 15% ;
+}
+
+/* Header  Image */
+
+
+/* Sections */
+
+.colored-section{
+  background-color: #553259;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+ .navbar {
+
+}
+
+.navbar-brand {
+  font-family: "Dancing Script";
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #BF6FB2;
+}
+
+.navbar-brand:hover{
+  color: #A66394;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat"
+    font-weight:100;
+}
+
+/* Download Buttons */
+.Download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 2% 15%;
+    text-align: left;
+}
+
+.image-text {
+background-image: url(../images/lavendel.jpg);
+max-height: 450px;
+position: relative;
+z-index: 1;
+}
+
+.image-headline {
+   padding: 2%;
+  margin: 7% 15%;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    opacity: 0.8;
+border-color: rgba(120, 120, 120, 0.1);
+border-style:solid;
+border-width: 20px;;
+}
+
+#title .image-headline h1,h3,p {
+  margin: 0, 5%;
+  color: #000000;
+  font-weight: 500;
+}
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.fa-4x, .fa-2x {
+  color: #BF6FB2;
+  margin-bottom: 1rem;
+}
+
+.fa-4x:hover, .fa-2x:hover {
+  color: #A66394;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #F2C1BD;
+}
+
+.testimonial-image {
+
+  width: 250px;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.testimonial-p {
+  text-align: left;
+}
+
+.description{
+
+  text-align: left;
+}
+
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* footer */
+
+#footer {
+
+padding: 3% 15%;
+}
+
+.logo2{
+  margin-top: 7%;
+}
+
+a.footer{
+  color: 8f8f8f;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Responsive design */
+@media (max-width: 800px) {
+  .image-headline {
+     padding: 2%;
+    margin: 3% 3%;
+  }
